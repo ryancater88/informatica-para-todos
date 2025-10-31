@@ -1,0 +1,49 @@
+#root {
+    font-family: var(--fonte-principal);
+}
+
+.pageHeader {
+    width: 96%;
+    height: 65px;
+    background-color: var(--cor-base);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border-bottom: 2px solid rgb(193 229 255);
+    margin-bottom: 1%;
+}
+
+.pageHeader__title {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textTitle {
+    color: var(--cor-fonte-base);
+    font-weight: 600;
+    font-size: large;
+}
+
+.pageHeader__actions {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.actionItem {
+    text-decoration: none;
+    color: var(--cor-fonte-base);
+    font-weight: 500;
+    font-size: medium;
+
+}

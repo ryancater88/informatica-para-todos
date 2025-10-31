@@ -1,0 +1,16 @@
+.footer {
+    width: 98%;
+    border-top: 2px solid rgb(193 229 255);
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    gap: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.footer p {
+    font-size: medium;
+}
