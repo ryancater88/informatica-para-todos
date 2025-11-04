@@ -1,23 +1,27 @@
 @import url('./reset.css');
 
 :root {
-    --cor-base: rgb(221 242 255);
-    --cor-fonte-base: rgb(0, 71, 129);
-    --fonte-principal: 'Arial', sans-serif;
+  --cor-base: rgb(221 242 255);
+  --cor-fundo: #f9fbfd;
+  --cor-fonte-base: rgb(0, 71, 129);
+  --fonte-principal: 'Segoe UI', sans-serif;
 
 }
 
-#root  {
+#root {
   min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: var(--cor-fundo);
+  box-sizing: border-box;
 }
 
 #conteudo {
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
 }

@@ -1,10 +1,12 @@
 .footer {
-    width: 98%;
+    width: 100%;
+    box-sizing: border-box;
     border-top: 2px solid rgb(193 229 255);
     height: 65px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-top: 1%;
     gap: 1%;
     padding-left: 1%;
@@ -12,5 +14,6 @@
 }
 
 .footer p {
-    font-size: medium;
+    font-size: 0.9em;
+    color: var(--cor-fonte-base);
 }
