@@ -1,7 +1,8 @@
 import HeaderComponent from "./components/header/headerComponent";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import HomepageComponent from "./pages/Homepage";
 import { FooterComponent } from "./components/footer/footerComponent";
+import HomepageComponent from "./pages/homepage/Homepage";
+import { CoursesComponent } from "./pages/courses/Courses";
 
 
 export function App() {
@@ -10,6 +11,8 @@ export function App() {
             <HeaderComponent/>
                 <Routes>
                     <Route exact path="/" Component={HomepageComponent} />
+                    <Route exact path="/home" Component={HomepageComponent} />
+                    <Route exact path="/course" Component={CoursesComponent} />
                 </Routes>
             <FooterComponent/>
         </Router>

@@ -35,6 +35,7 @@
     width: 50%;
     height: 100%;
     display: flex;
+    gap: 2%;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -47,4 +48,14 @@
     font-weight: 500;
     font-size: medium;
 
+}
+
+@media (max-width: 500px) {
+    .pageHeader__actions {
+        gap: 8%;
+    }
+
+    .pageHeader__title {
+        padding-left: 2%;
+    }
 }

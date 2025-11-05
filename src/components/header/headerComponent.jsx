@@ -9,7 +9,10 @@ export default function HeaderComponent() {
             </div>
             <div className="pageHeader__actions">
                 <div className="actions__action">
-                    <a href="/sobre" className='actionItem'>Sobre</a>
+                    <a href="/home" className='actionItem'>Home</a>
+                </div>
+                <div className="actions__action">
+                    <a href="/about" className='actionItem'>Sobre</a>
                 </div>
             </div>
         </div>
