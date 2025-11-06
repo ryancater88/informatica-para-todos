@@ -15,17 +15,17 @@ body {
 }
 
 #root {
-  min-height: 100%;
+  overflow: auto;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: var(--cor-fundo);
   box-sizing: border-box;
 }
 
 #conteudo {
-  flex: 1;
+  flex-grow: 1;
 }
 
 button {

@@ -1,8 +1,3 @@
-#conteudo {
-    flex: 1;
-    display: block;
-}
-
 .course-card {
     display: flex;
     background-color: aliceblue;
@@ -22,6 +17,11 @@
 .course-card:hover {
     background-color: rgb(195, 203, 209)
 }
+.course-card__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .course-card__title h3 {
     color: var(--cor-fonte-base);
@@ -32,7 +32,7 @@
 .course-card__image img {
     height: 100%;
     width: 56%;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 .course-card__image {

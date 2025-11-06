@@ -1,0 +1,23 @@
+#courses {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.container-courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    box-sizing: border-box;
+    width: 75%;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+@media (max-width: 924px) {
+    .container-courses {
+        width: 100%;
+    }
+}
