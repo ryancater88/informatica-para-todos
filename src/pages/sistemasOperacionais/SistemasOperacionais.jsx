@@ -8,7 +8,8 @@ import ListComponent from '../../components/listComponent/ListComponent'
 import ParagraphComponent from '../../components/paragraphComponent/ParagraphComponent'
 import SectionComponent from '../../components/sectionComponent/SectionComponent'
 import SectionTitleComponent from '../../components/sectionTitleComponent/SectionTitleComponent'
-import './sistemasOperacionais.styles.css' 
+import './sistemasOperacionais.styles.css'
+import { useEffect } from 'react'
 
 export default function SistemasOperacionaisCompoenent() {
     const navigation = useNavigate()
@@ -16,6 +17,11 @@ export default function SistemasOperacionaisCompoenent() {
     const goToCourses = () => {
         navigation('/course')
     }
+
+    useEffect(() => {
+        window.scroll({ top: 1 })
+    })
+
 
     return (
         <div id="conteudo">

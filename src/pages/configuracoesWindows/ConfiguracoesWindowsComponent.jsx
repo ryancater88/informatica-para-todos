@@ -8,6 +8,7 @@ import SectionComponent from '../../components/sectionComponent/SectionComponent
 import SectionTitleComponent from '../../components/sectionTitleComponent/SectionTitleComponent'
 import ContainerHeaderComponent from '../../components/containerHeader/ContainerHeaderComponent'
 import ContainerBodyComponent from '../../components/containerBody/ContainerBodyComponent'
+import { useEffect } from 'react'
 
 export default function ConfiguracoesWindowsComponent() {
     const navigation = useNavigate()
@@ -15,6 +16,11 @@ export default function ConfiguracoesWindowsComponent() {
     const goToCourses = () => {
         navigation('/course')
     }
+
+    useEffect(() => {
+        window.scroll({ top: 1 })
+    })
+
 
     return (
         <div id="conteudo" >

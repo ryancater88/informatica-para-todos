@@ -12,6 +12,7 @@ import ProblemasImpressoraComponent from "./pages/problemasImpressora/ProblemasI
 
 
 export function App() {
+    
     return (
         <Router>
             <HeaderComponent/>
