@@ -30,12 +30,12 @@ export function CoursesComponent() {
                     <CourseCardComponent
                         titleCourse="Instalando uma impressora"
                         imgSrc="images/addprinter.png"
-                        ref='/home'
+                        ref='/course/printersetup'
                     />
                     <CourseCardComponent
                         titleCourse="Resolvendo os problemas de impressão"
                         imgSrc="images/fixprinter.png"
-                        ref='/home'
+                        ref='/course/printerproblems'
                     />
                 </div>
             </section>

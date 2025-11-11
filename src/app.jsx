@@ -7,6 +7,8 @@ import SistemasOperacionaisCompoenent from "./pages/sistemasOperacionais/Sistema
 import ConectandoInternetComponent from "./pages/conectandoInternet/ConectandoInternetComponent";
 import ProblemasInternetComponent from "./pages/problemasInternet/ProblemasInternetComponent";
 import ConfiguracoesWindowsComponent from "./pages/configuracoesWindows/ConfiguracoesWindowsComponent";
+import InstalandoImpressoraComponent from "./pages/instalandoImpressora/InstalandoImpressoraComponent";
+import ProblemasImpressoraComponent from "./pages/problemasImpressora/ProblemasImpressoraComponent";
 
 
 export function App() {
@@ -21,6 +23,8 @@ export function App() {
                     <Route exact path="/course/connectnetwork" Component={ConectandoInternetComponent}/>
                     <Route exact path="/course/networkproblems" Component={ProblemasInternetComponent}/>
                     <Route exact path="/course/windowsconfig" Component={ConfiguracoesWindowsComponent}/>
+                    <Route exact path="/course/printersetup" Component={InstalandoImpressoraComponent}/>
+                    <Route exact path="/course/printerproblems" Component={ProblemasImpressoraComponent}/>
                 </Routes>
             <FooterComponent/>
         </Router>
