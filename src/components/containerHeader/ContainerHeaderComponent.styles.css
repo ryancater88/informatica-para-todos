@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: start;
     padding-left: 10px;
+    font-size: small;
     font-weight: bolder;
     color: var(--cor-fonte-base);
 }
@@ -40,6 +41,14 @@
     width: 52px;
     height: 100%;
     padding: 0px;
+}
+
+.container-header__actions button:active {
+    height: 25px;
+}
+
+.container-header__actions button:hover {
+    height: 35px;
 }
 
 .container-header__actions button img {

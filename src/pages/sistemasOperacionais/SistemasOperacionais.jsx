@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import AnchorComponent from '../../components/anchorComponent/AnchorComponent'
 import ContainerBodyComponent from '../../components/containerBody/ContainerBodyComponent'
 import ContainerConteudoComponent from '../../components/containerConteudo/ContainerConteudoComponent'
@@ -10,10 +11,16 @@ import SectionTitleComponent from '../../components/sectionTitleComponent/Sectio
 import './sistemasOperacionais.styles.css'
 
 export default function SistemasOperacionaisCompoenent() {
+    const navigation = useNavigate()
+
+    const goToCourses = () => {
+        navigation('/course')
+    }
+
     return (
         <div id="conteudo">
             <ContainerConteudoComponent>
-                <ContainerHeaderComponent containerTitle={'Introdução aos sistemas operacionais:'}></ContainerHeaderComponent>
+                <ContainerHeaderComponent onClose={goToCourses} containerTitle={'Introdução aos sistemas operacionais:'}></ContainerHeaderComponent>
                 <ContainerBodyComponent>
                     <SectionComponent class="intro">
                         <SectionTitleComponent>O que são sistemas operacionais?</SectionTitleComponent>

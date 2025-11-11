@@ -8,7 +8,7 @@ export default function ContainerHeaderComponent({ containerTitle, onClose }) {
     return (
         <div className="container-header">
             <div className="container-header__title">
-                <p>{containerTitle}</p>
+                <p>{containerTitle?.toUpperCase()}</p>
             </div>
             <div className="container-header__actions">
                 <button onClick={() => closeContainer()} className="container-header__actions__close">
