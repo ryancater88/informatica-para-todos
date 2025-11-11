@@ -1,0 +1,10 @@
+.anchor {
+    color: rgb(0, 71, 129);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.anchor:hover {
+    text-decoration: underline;
+}

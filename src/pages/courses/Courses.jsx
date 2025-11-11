@@ -15,17 +15,17 @@ export function CoursesComponent() {
                     <CourseCardComponent
                         titleCourse="Como se conectar na internet"
                         imgSrc="images/internet.png"
-                        ref='/home'
+                        ref='/course/connectnetwork'
                     />
                     <CourseCardComponent
                         titleCourse="Resolvendo os problemas de conexão"
                         imgSrc="images/interneterrors.png"
-                        ref='/home'
+                        ref='/course/networkproblems'
                     />
                     <CourseCardComponent
                         titleCourse="Principais configurações do Windows"
                         imgSrc="images/windowsconfigs.png"
-                        ref='/home'
+                        ref='/course/windowsconfig'
                     />
                     <CourseCardComponent
                         titleCourse="Instalando uma impressora"

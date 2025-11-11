@@ -4,6 +4,9 @@ import { FooterComponent } from "./components/footer/footerComponent";
 import HomepageComponent from "./pages/homepage/Homepage";
 import { CoursesComponent } from "./pages/courses/Courses";
 import SistemasOperacionaisCompoenent from "./pages/sistemasOperacionais/SistemasOperacionais";
+import ConectandoInternetComponent from "./pages/conectandoInternet/ConectandoInternetComponent";
+import ProblemasInternetComponent from "./pages/problemasInternet/ProblemasInternetComponent";
+import ConfiguracoesWindowsComponent from "./pages/configuracoesWindows/ConfiguracoesWindowsComponent";
 
 
 export function App() {
@@ -14,7 +17,10 @@ export function App() {
                     <Route exact path="/" Component={HomepageComponent} />
                     <Route exact path="/home" Component={HomepageComponent} />
                     <Route exact path="/course" Component={CoursesComponent} />
-                    <Route exact path="/course/so" Component={SistemasOperacionaisCompoenent} />
+                    <Route exact path="/course/so" Component={SistemasOperacionaisCompoenent}/>
+                    <Route exact path="/course/connectnetwork" Component={ConectandoInternetComponent}/>
+                    <Route exact path="/course/networkproblems" Component={ProblemasInternetComponent}/>
+                    <Route exact path="/course/windowsconfig" Component={ConfiguracoesWindowsComponent}/>
                 </Routes>
             <FooterComponent/>
         </Router>
