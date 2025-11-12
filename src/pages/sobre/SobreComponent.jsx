@@ -32,7 +32,7 @@ export default function SobreComponent() {
 
                         <ParagraphComponent>
                             O projeto <strong>Informática para Todos</strong> foi desenvolvido como parte do
-                            <strong>projeto de extensão curricular</strong> do curso de <strong> Análise e Desenvolvimento de Sistemas</strong>.
+                            <strong> projeto de extensão curricular</strong> do curso de <strong> Análise e Desenvolvimento de Sistemas</strong>.
                             Seu objetivo é oferecer conteúdos educativos e acessíveis sobre temas relacionados à tecnologia e ao uso do computador no dia a dia.
                         </ParagraphComponent>
 
@@ -57,7 +57,7 @@ export default function SobreComponent() {
                         </ParagraphComponent>
 
                         <ParagraphComponent>
-                            O foco está em aplicar os conceitos de <strong>desenvolvimento web</strong>, <strong>design responsivo</strong>
+                            O foco está em aplicar os conceitos de <strong>desenvolvimento web</strong>, <strong>design responsivo </strong>
                             e <strong>acessibilidade digital</strong> em um ambiente real de aprendizado.
                         </ParagraphComponent>
                     </SectionComponent>
@@ -67,7 +67,7 @@ export default function SobreComponent() {
 
                         <ParagraphComponent>
                             Este projeto foi idealizado e desenvolvido por <strong>Ryan Galvão</strong>, estudante de
-                            <strong>Análise e Desenvolvimento de Sistemas</strong> — <strong>2025</strong>.
+                            <strong> Análise e Desenvolvimento de Sistemas</strong> — <strong>2025</strong>.
                         </ParagraphComponent>
 
                         <ParagraphComponent>
